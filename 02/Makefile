@@ -12,3 +12,6 @@ $(objects): %: %.c
 .PHONY: clean
 clean:
 	@rm -rf *.exe
+
+test:
+	bash ../runtest.sh 02

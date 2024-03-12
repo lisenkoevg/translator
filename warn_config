@@ -17,7 +17,7 @@
 -Wduplicated-cond
 -Wfloat-conversion
 -Wfloat-equal
--Wformat-nonliteral
+#-Wformat-nonliteral
 -Wformat-security
 -Wformat-signedness
 -Wformat-y2k
@@ -40,7 +40,7 @@
 -Wshadow=local
 -Wsign-conversion
 -Wstack-protector
-#-Wstrict-prototypes
+-Wstrict-prototypes
 -Wsuggest-attribute=cold
 -Wsuggest-attribute=const
 -Wsuggest-attribute=format
